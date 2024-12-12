@@ -1,0 +1,9 @@
+D:\Desktop application development\BookPrj\DataAccess\bin\Debug\DataAccess.dll
+D:\Desktop application development\BookPrj\DataAccess\bin\Debug\DataAccess.pdb
+D:\Desktop application development\BookPrj\DataAccess\bin\Debug\DTO.dll
+D:\Desktop application development\BookPrj\DataAccess\bin\Debug\DTO.pdb
+D:\Desktop application development\BookPrj\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+D:\Desktop application development\BookPrj\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+D:\Desktop application development\BookPrj\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+D:\Desktop application development\BookPrj\DataAccess\obj\Debug\DataAccess.dll
+D:\Desktop application development\BookPrj\DataAccess\obj\Debug\DataAccess.pdb

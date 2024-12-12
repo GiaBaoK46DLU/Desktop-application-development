@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BookModelStoreContainer" CdmEntityContainer="BookEntities">
+    <EntitySetMapping Name="BCLUOTMUONTHEOTHELOAI">
+      <EntityTypeMapping TypeName="BookModel.BCLUOTMUONTHEOTHELOAI">
+        <MappingFragment StoreEntitySet="BCLUOTMUONTHEOTHELOAI">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="MaBaoCao" ColumnName="MaBaoCao" />
+          <ScalarProperty Name="TongSoLuotMuon" ColumnName="TongSoLuotMuon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_BCLUOTMUONTHEOTHELOAI">
+      <EntityTypeMapping TypeName="BookModel.CT_BCLUOTMUONTHEOTHELOAI">
+        <MappingFragment StoreEntitySet="CT_BCLUOTMUONTHEOTHELOAI">
+          <ScalarProperty Name="idBaoCao" ColumnName="idBaoCao" />
+          <ScalarProperty Name="idTheLoai" ColumnName="idTheLoai" />
+          <ScalarProperty Name="SoLuotMuon" ColumnName="SoLuotMuon" />
+          <ScalarProperty Name="TiLe" ColumnName="TiLe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_PHIEUNHAP">
+      <EntityTypeMapping TypeName="BookModel.CT_PHIEUNHAP">
+        <MappingFragment StoreEntitySet="CT_PHIEUNHAP">
+          <ScalarProperty Name="SoPhieuNhap" ColumnName="SoPhieuNhap" />
+          <ScalarProperty Name="idSach" ColumnName="idSach" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="SoLuongNhap" ColumnName="SoLuongNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CUONSACH">
+      <EntityTypeMapping TypeName="BookModel.CUONSACH">
+        <MappingFragment StoreEntitySet="CUONSACH">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaCuonSach" ColumnName="MaCuonSach" />
+          <ScalarProperty Name="idSach" ColumnName="idSach" />
+          <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHUCNANG">
+      <EntityTypeMapping TypeName="BookModel.CHUCNANG">
+        <MappingFragment StoreEntitySet="CHUCNANG">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaChucNang" ColumnName="MaChucNang" />
+          <ScalarProperty Name="TenChucNang" ColumnName="TenChucNang" />
+          <ScalarProperty Name="TenManHinh" ColumnName="TenManHinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOCGIA">
+      <EntityTypeMapping TypeName="BookModel.DOCGIA">
+        <MappingFragment StoreEntitySet="DOCGIA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MaDocGia" ColumnName="MaDocGia" />
+          <ScalarProperty Name="TenDocGia" ColumnName="TenDocGia" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="NgayLapThe" ColumnName="NgayLapThe" />
+          <ScalarProperty Name="NgayHetHan" ColumnName="NgayHetHan" />
+          <ScalarProperty Name="idLoaiDocGia" ColumnName="idLoaiDocGia" />
+          <ScalarProperty Name="TongNoHienTai" ColumnName="TongNoHienTai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAIDOCGIA">
+      <EntityTypeMapping TypeName="BookModel.LOAIDOCGIA">
+        <MappingFragment StoreEntitySet="LOAIDOCGIA">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaLoaiDocGia" ColumnName="MaLoaiDocGia" />
+          <ScalarProperty Name="TenLoaiDocGia" ColumnName="TenLoaiDocGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGUOIDUNG">
+      <EntityTypeMapping TypeName="BookModel.NGUOIDUNG">
+        <MappingFragment StoreEntitySet="NGUOIDUNG">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaNguoiDung" ColumnName="MaNguoiDung" />
+          <ScalarProperty Name="TenNguoiDung" ColumnName="TenNguoiDung" />
+          <ScalarProperty Name="TenDangNhap" ColumnName="TenDangNhap" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="idNhomNguoiDung" ColumnName="idNhomNguoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHOMNGUOIDUNG">
+      <EntityTypeMapping TypeName="BookModel.NHOMNGUOIDUNG">
+        <MappingFragment StoreEntitySet="NHOMNGUOIDUNG">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaNhomNguoiDung" ColumnName="MaNhomNguoiDung" />
+          <ScalarProperty Name="TenNhomNguoiDung" ColumnName="TenNhomNguoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUMUONTRA">
+      <EntityTypeMapping TypeName="BookModel.PHIEUMUONTRA">
+        <MappingFragment StoreEntitySet="PHIEUMUONTRA">
+          <ScalarProperty Name="SoPhieuMuonTra" ColumnName="SoPhieuMuonTra" />
+          <ScalarProperty Name="idDocGia" ColumnName="idDocGia" />
+          <ScalarProperty Name="idCuonSach" ColumnName="idCuonSach" />
+          <ScalarProperty Name="NgayMuon" ColumnName="NgayMuon" />
+          <ScalarProperty Name="NgayTra" ColumnName="NgayTra" />
+          <ScalarProperty Name="HanTra" ColumnName="HanTra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUNHAPSACH">
+      <EntityTypeMapping TypeName="BookModel.PHIEUNHAPSACH">
+        <MappingFragment StoreEntitySet="PHIEUNHAPSACH">
+          <ScalarProperty Name="SoPhieuNhap" ColumnName="SoPhieuNhap" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SACH">
+      <EntityTypeMapping TypeName="BookModel.SACH">
+        <MappingFragment StoreEntitySet="SACH">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaSach" ColumnName="MaSach" />
+          <ScalarProperty Name="idTuaSach" ColumnName="idTuaSach" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="SoLuongConLai" ColumnName="SoLuongConLai" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="NamXB" ColumnName="NamXB" />
+          <ScalarProperty Name="NhaXB" ColumnName="NhaXB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TACGIA">
+      <EntityTypeMapping TypeName="BookModel.TACGIA">
+        <MappingFragment StoreEntitySet="TACGIA">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MATACGIA" ColumnName="MATACGIA" />
+          <ScalarProperty Name="TenTacGia" ColumnName="TenTacGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TUASACH">
+      <EntityTypeMapping TypeName="BookModel.TUASACH">
+        <MappingFragment StoreEntitySet="TUASACH">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaTuaSach" ColumnName="MaTuaSach" />
+          <ScalarProperty Name="TenTuaSach" ColumnName="TenTuaSach" />
+          <ScalarProperty Name="idTheLoai" ColumnName="idTheLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THELOAI">
+      <EntityTypeMapping TypeName="BookModel.THELOAI">
+        <MappingFragment StoreEntitySet="THELOAI">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="MaTheLoai" ColumnName="MaTheLoai" />
+          <ScalarProperty Name="TenTheLoai" ColumnName="TenTheLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CT_TACGIA" TypeName="BookModel.CT_TACGIA" StoreEntitySet="CT_TACGIA">
+      <EndProperty Name="TACGIA">
+        <ScalarProperty Name="id" ColumnName="idTacGia" />
+      </EndProperty>
+      <EndProperty Name="TUASACH">
+        <ScalarProperty Name="id" ColumnName="idTuaSach" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="PHANQUYEN" TypeName="BookModel.PHANQUYEN" StoreEntitySet="PHANQUYEN">
+      <EndProperty Name="CHUCNANG">
+        <ScalarProperty Name="id" ColumnName="idChucNang" />
+      </EndProperty>
+      <EndProperty Name="NHOMNGUOIDUNG">
+        <ScalarProperty Name="id" ColumnName="idNhomNguoiDung" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,45 @@
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.exe.config
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.exe
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.pdb
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\BusinessLogic.dll
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\DataAccess.dll
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\BusinessLogic.pdb
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\bin\Debug\DataAccess.pdb
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.AssemblyReference.cache
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.SuggestedBindingRedirects.cache
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.fLogin.resources
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Properties.Resources.resources
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.GenerateResource.cache
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.CoreCompileInputs.cache
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.CopyComplete
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.exe
+D:\Desktop application development\Project about book - main\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.AssemblyReference.cache
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.fLogin.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Properties.Resources.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.GenerateResource.cache
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.csproj.CoreCompileInputs.cache
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.exe
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.fManager.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.exe.config
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.exe
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\BookLibraryManagementProject.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\BusinessLogic.dll
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\DataAccess.dll
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\BusinessLogic.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\DataAccess.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibr.1F7A3932.Up2Date
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\MetroFramework.dll
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormQLS.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormBCTK.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormQLDG.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormTK.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormQLPMT.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\FontAwesome.Sharp.dll
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormQLTK.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\DTO.dll
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\bin\Debug\DTO.pdb
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormThemTL.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormThemTG.resources
+D:\Desktop application development\BookPrj\BookLibraryManagementProject\obj\Debug\BookLibraryManagementProject.Forms.FormDoiMK.resources
