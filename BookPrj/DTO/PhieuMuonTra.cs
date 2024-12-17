@@ -18,7 +18,9 @@ namespace DTO
         public string HoTenNhanVien { get; set; }
         public DateTime NgayMuon { get; set; }
         public DateTime HanTra { get; set; }
+        [Browsable(false)]
         public bool DaTraSach { get; set; }
+        public string TrangThaiSach { get; set; }
         public int TienPhat { get; set; }
 
 
@@ -26,13 +28,14 @@ namespace DTO
         {
         }
 
-        public PhieuMuonTra(int idDocGia, int idTaiKhoan, DateTime NgayMuon, DateTime HanTra, bool DaTraSach, int TienPhat)
+        public PhieuMuonTra(int idDocGia, int idTaiKhoan, DateTime NgayMuon, DateTime HanTra, bool DaTraSach, string TrangThaiSach, int TienPhat)
         {
             this.idDocGia = idDocGia;
             this.idTaiKhoan = idTaiKhoan;
             this.NgayMuon = NgayMuon;
             this.HanTra = HanTra;
             this.DaTraSach = DaTraSach;
+            this.TrangThaiSach = TrangThaiSach;
             this.TienPhat = TienPhat;
         }
 

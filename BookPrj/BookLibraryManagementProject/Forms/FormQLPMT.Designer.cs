@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            FontAwesome.Sharp.IconButton iBtnPMT_Reload;
             this.tabQLDG = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tableCha = new System.Windows.Forms.TableLayoutPanel();
@@ -66,25 +67,21 @@
             this.cMSTraSach = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.trảSáchMượnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.cBHienThiTatCa = new System.Windows.Forms.CheckBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.btnSearch_PMT = new System.Windows.Forms.Button();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.tBSearch_PMT = new System.Windows.Forms.TextBox();
             this.dgvPhieuMuonTra = new System.Windows.Forms.DataGridView();
+            this.cMSTraHetSach = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.trảToànBộSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ID2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoPhieuMuonTra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DocGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NhanVien = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayMuon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HanTra = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DaTraSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThaiSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TienPhat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cMSTraHetSach = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.trảToànBộSáchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            iBtnPMT_Reload = new FontAwesome.Sharp.IconButton();
             this.tabQLDG.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableCha.SuspendLayout();
@@ -97,7 +94,6 @@
             this.tableCha2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCT_PhieuMuonTra)).BeginInit();
             this.cMSTraSach.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuMuonTra)).BeginInit();
             this.cMSTraHetSach.SuspendLayout();
@@ -526,9 +522,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Location = new System.Drawing.Point(789, 3);
             this.groupBox2.Name = "groupBox2";
@@ -536,46 +529,11 @@
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(114, 36);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 26);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Tìm kiếm";
-            // 
-            // button4
-            // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(501, 36);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 26);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Tìm";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox1.Location = new System.Drawing.Point(220, 36);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(276, 26);
-            this.textBox1.TabIndex = 21;
-            // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.cBHienThiTatCa);
+            this.groupBox11.Controls.Add(iBtnPMT_Reload);
             this.groupBox11.Controls.Add(this.label21);
-            this.groupBox11.Controls.Add(this.btnSearch_PMT);
-            this.groupBox11.Controls.Add(this.textBox21);
+            this.groupBox11.Controls.Add(this.tBSearch_PMT);
             this.groupBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox11.Location = new System.Drawing.Point(3, 3);
             this.groupBox11.Name = "groupBox11";
@@ -583,51 +541,27 @@
             this.groupBox11.TabIndex = 5;
             this.groupBox11.TabStop = false;
             // 
-            // cBHienThiTatCa
-            // 
-            this.cBHienThiTatCa.AutoSize = true;
-            this.cBHienThiTatCa.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cBHienThiTatCa.Location = new System.Drawing.Point(599, 83);
-            this.cBHienThiTatCa.Name = "cBHienThiTatCa";
-            this.cBHienThiTatCa.Size = new System.Drawing.Size(175, 33);
-            this.cBHienThiTatCa.TabIndex = 24;
-            this.cBHienThiTatCa.Text = "Hiển thị tất cả";
-            this.cBHienThiTatCa.UseVisualStyleBackColor = true;
-            // 
             // label21
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(114, 24);
+            this.label21.Location = new System.Drawing.Point(66, 54);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(101, 26);
             this.label21.TabIndex = 21;
             this.label21.Text = "Tìm kiếm";
             // 
-            // btnSearch_PMT
+            // tBSearch_PMT
             // 
-            this.btnSearch_PMT.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnSearch_PMT.BackColor = System.Drawing.Color.White;
-            this.btnSearch_PMT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch_PMT.ForeColor = System.Drawing.Color.Black;
-            this.btnSearch_PMT.Location = new System.Drawing.Point(513, 24);
-            this.btnSearch_PMT.Name = "btnSearch_PMT";
-            this.btnSearch_PMT.Size = new System.Drawing.Size(119, 31);
-            this.btnSearch_PMT.TabIndex = 22;
-            this.btnSearch_PMT.Text = "Tìm";
-            this.btnSearch_PMT.UseVisualStyleBackColor = false;
-            this.btnSearch_PMT.Click += new System.EventHandler(this.btnSearch_PMT_Click);
-            // 
-            // textBox21
-            // 
-            this.textBox21.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(220, 24);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(276, 31);
-            this.textBox21.TabIndex = 21;
+            this.tBSearch_PMT.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.tBSearch_PMT.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tBSearch_PMT.Location = new System.Drawing.Point(172, 51);
+            this.tBSearch_PMT.Margin = new System.Windows.Forms.Padding(2);
+            this.tBSearch_PMT.Name = "tBSearch_PMT";
+            this.tBSearch_PMT.Size = new System.Drawing.Size(452, 31);
+            this.tBSearch_PMT.TabIndex = 21;
+            this.tBSearch_PMT.TextChanged += new System.EventHandler(this.tBSearch_PMT_TextChanged);
             // 
             // dgvPhieuMuonTra
             // 
@@ -641,7 +575,7 @@
             this.NhanVien,
             this.NgayMuon,
             this.HanTra,
-            this.DaTraSach,
+            this.TrangThaiSach,
             this.TienPhat});
             this.dgvPhieuMuonTra.ContextMenuStrip = this.cMSTraHetSach;
             this.dgvPhieuMuonTra.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -654,6 +588,37 @@
             this.dgvPhieuMuonTra.TabIndex = 6;
             this.dgvPhieuMuonTra.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvPhieuMuonTra_MouseDoubleClick);
             this.dgvPhieuMuonTra.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dgvPhieuMuonTra_MouseDown);
+            // 
+            // cMSTraHetSach
+            // 
+            this.cMSTraHetSach.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.trảToànBộSáchToolStripMenuItem});
+            this.cMSTraHetSach.Name = "cMSTraHetSach";
+            this.cMSTraHetSach.Size = new System.Drawing.Size(164, 26);
+            // 
+            // trảToànBộSáchToolStripMenuItem
+            // 
+            this.trảToànBộSáchToolStripMenuItem.Name = "trảToànBộSáchToolStripMenuItem";
+            this.trảToànBộSáchToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.trảToànBộSáchToolStripMenuItem.Text = "Trả toàn bộ sách ";
+            this.trảToànBộSáchToolStripMenuItem.Click += new System.EventHandler(this.trảToànBộSáchToolStripMenuItem_Click);
+            // 
+            // iBtnPMT_Reload
+            // 
+            iBtnPMT_Reload.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            iBtnPMT_Reload.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            iBtnPMT_Reload.ForeColor = System.Drawing.Color.White;
+            iBtnPMT_Reload.IconChar = FontAwesome.Sharp.IconChar.RotateForward;
+            iBtnPMT_Reload.IconColor = System.Drawing.Color.Black;
+            iBtnPMT_Reload.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iBtnPMT_Reload.IconSize = 25;
+            iBtnPMT_Reload.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            iBtnPMT_Reload.Location = new System.Drawing.Point(647, 51);
+            iBtnPMT_Reload.Name = "iBtnPMT_Reload";
+            iBtnPMT_Reload.Size = new System.Drawing.Size(34, 31);
+            iBtnPMT_Reload.TabIndex = 24;
+            iBtnPMT_Reload.UseVisualStyleBackColor = true;
+            iBtnPMT_Reload.Click += new System.EventHandler(this.iBtnPMT_Reload_Click);
             // 
             // ID2
             // 
@@ -697,12 +662,12 @@
             this.HanTra.Name = "HanTra";
             this.HanTra.Width = 92;
             // 
-            // DaTraSach
+            // TrangThaiSach
             // 
-            this.DaTraSach.DataPropertyName = "DaTraSach";
-            this.DaTraSach.HeaderText = "Đã trả sách";
-            this.DaTraSach.Name = "DaTraSach";
-            this.DaTraSach.Width = 172;
+            this.TrangThaiSach.DataPropertyName = "TrangThaiSach";
+            this.TrangThaiSach.HeaderText = "Trạng thái sách";
+            this.TrangThaiSach.Name = "TrangThaiSach";
+            this.TrangThaiSach.Width = 163;
             // 
             // TienPhat
             // 
@@ -710,20 +675,6 @@
             this.TienPhat.HeaderText = "Tiền phạt";
             this.TienPhat.Name = "TienPhat";
             this.TienPhat.Width = 96;
-            // 
-            // cMSTraHetSach
-            // 
-            this.cMSTraHetSach.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.trảToànBộSáchToolStripMenuItem});
-            this.cMSTraHetSach.Name = "cMSTraHetSach";
-            this.cMSTraHetSach.Size = new System.Drawing.Size(164, 26);
-            // 
-            // trảToànBộSáchToolStripMenuItem
-            // 
-            this.trảToànBộSáchToolStripMenuItem.Name = "trảToànBộSáchToolStripMenuItem";
-            this.trảToànBộSáchToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.trảToànBộSáchToolStripMenuItem.Text = "Trả toàn bộ sách ";
-            this.trảToànBộSáchToolStripMenuItem.Click += new System.EventHandler(this.trảToànBộSáchToolStripMenuItem_Click);
             // 
             // FormQLPMT
             // 
@@ -751,8 +702,6 @@
             this.tableCha2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCT_PhieuMuonTra)).EndInit();
             this.cMSTraSach.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuMuonTra)).EndInit();
@@ -775,13 +724,9 @@
         private System.Windows.Forms.TableLayoutPanel tableCha2;
         private System.Windows.Forms.DataGridView dgvCT_PhieuMuonTra;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button btnSearch_PMT;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox tBSearch_PMT;
         private System.Windows.Forms.DataGridView dgvPhieuMuonTra;
         private System.Windows.Forms.GroupBox gBNhanVien;
         private System.Windows.Forms.DateTimePicker dTPNgayHenTra;
@@ -797,15 +742,6 @@
         private System.Windows.Forms.DataGridView dgvSachDuocChon;
         private System.Windows.Forms.ComboBox cBNhanVien;
         private System.Windows.Forms.ComboBox cBDocGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SoPhieuMuonTra;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DocGia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NhanVien;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgayMuon;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HanTra;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DaTraSach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TienPhat;
-        private System.Windows.Forms.CheckBox cBHienThiTatCa;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaSach;
         private System.Windows.Forms.DataGridViewTextBoxColumn TenSach;
@@ -819,5 +755,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayTra;
         private System.Windows.Forms.ContextMenuStrip cMSTraHetSach;
         private System.Windows.Forms.ToolStripMenuItem trảToànBộSáchToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoPhieuMuonTra;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DocGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NhanVien;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayMuon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HanTra;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThaiSach;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TienPhat;
     }
 }

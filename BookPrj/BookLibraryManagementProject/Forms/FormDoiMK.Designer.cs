@@ -148,7 +148,7 @@
             this.Controls.Add(this.label10);
             this.Name = "FormDoiMK";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormDoiMK";
+            this.Text = "Đổi mật khẩu";
             this.ResumeLayout(false);
             this.PerformLayout();
 

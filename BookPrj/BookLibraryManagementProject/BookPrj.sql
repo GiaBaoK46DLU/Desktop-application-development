@@ -94,6 +94,7 @@ create table PHIEUMUONTRA
 	NgayMuon Datetime NOT NULL, 
 	HanTra Datetime NOT NULL,
 	DaTraSach bit, 
+	TrangThaiSach NVARCHAR (max),
 	TienPhat int not null,
 )
 go
@@ -524,13 +525,13 @@ DBCC CHECKIDENT ('LOAIDOCGIA', RESEED, @MaxID);
 ---------------GetAll---------------
 Create procedure PHIEUMUONTRA_GetAll
 AS
-Select pmt.ID, SoPhieuMuonTra, TenDocGia, HoTenNhanVien, NgayMuon, HanTra, DaTraSach ,TienPhat
+Select pmt.ID, SoPhieuMuonTra, TenDocGia, HoTenNhanVien, NgayMuon, HanTra, DaTraSach, TrangThaiSach, TienPhat
 From PHIEUMUONTRA pmt, DOCGIA dg, TAIKHOAN tk
 Where pmt.idDocGia = dg.ID and pmt.idTaiKhoan = tk.ID
 
 Create procedure PHIEUMUONTRA_Get_PhieuChuaTra
 AS
-Select pmt.ID, SoPhieuMuonTra, TenDocGia, HoTenNhanVien, NgayMuon, HanTra, DaTraSach ,TienPhat
+Select pmt.ID, SoPhieuMuonTra, TenDocGia, HoTenNhanVien, NgayMuon, HanTra, DaTraSach, TrangThaiSach, TienPhat
 From PHIEUMUONTRA pmt, DOCGIA dg, TAIKHOAN tk
 Where pmt.idDocGia = dg.ID and pmt.idTaiKhoan = tk.ID and DaTraSach = 0
 ---------------Insert---------------
@@ -541,6 +542,7 @@ Create procedure PHIEUMUONTRA_Insert
 @NgayMuon datetime,
 @HanTra datetime,
 @DaTraSach nvarchar(MAX),
+@TrangThaiSach nvarchar(MAX),
 @TienPhat int
 AS
 INSERT INTO [dbo].[PHIEUMUONTRA](
@@ -549,6 +551,7 @@ idTaiKhoan,
 NgayMuon,
 HanTra,
 DaTraSach,
+TrangThaiSach,
 TienPhat
 )
 Values(
@@ -557,6 +560,7 @@ Values(
 @NgayMuon,
 @HanTra,
 @DaTraSach,
+@TrangThaiSach,
 @TienPhat
 )
 set @ID=@@IDENTITY
@@ -599,7 +603,8 @@ as
 	Begin
 		--Dua thuoc tinh DaTraSach tu false thanh true
 		update PHIEUMUONTRA
-		set	DaTraSach = 1
+		set	DaTraSach = 1,
+			TrangThaiSach = N'Đã trả'
 		where Id = @id
 		--Cap nhat toan bo CT_PhieuMuonTra 
 		update CT_PHIEUMUONTRA
@@ -607,15 +612,7 @@ as
 		where idSoPhieuMuonTra=@id
 	End
 
----------------Search---------------
-Create procedure CT_PHIEUMUONTRA_Search
-@idSoPhieuMuonTra int
-AS
-Select ctpmt.ID, TenSach, NgayTra
-from  CT_PHIEUMUONTRA ctpmt, SACH s
-where @idSoPhieuMuonTra = idSoPhieuMuonTra and ctpmt.idSach = s.id
-
-                                          --------------INSERT DATA--------------------
+                                         --------------INSERT DATA--------------------
 -- Insert table LOAITAIKHOAN
 insert into LOAITAIKHOAN(TenLoaiTaiKhoan) values (N'Quản Lý')
 insert into LOAITAIKHOAN(TenLoaiTaiKhoan) values (N'Nhân Viên')

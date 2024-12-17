@@ -169,7 +169,7 @@
             this.lblChucvu.Name = "lblChucvu";
             this.lblChucvu.Size = new System.Drawing.Size(253, 30);
             this.lblChucvu.TabIndex = 13;
-            this.lblChucvu.Text = "QL";
+            this.lblChucvu.Text = "Quản lý ";
             // 
             // lblBirthday
             // 
@@ -179,7 +179,7 @@
             this.lblBirthday.Name = "lblBirthday";
             this.lblBirthday.Size = new System.Drawing.Size(253, 30);
             this.lblBirthday.TabIndex = 12;
-            this.lblBirthday.Text = "16/9";
+            this.lblBirthday.Text = "26/07/2004";
             // 
             // lblMa
             // 
@@ -189,7 +189,7 @@
             this.lblMa.Name = "lblMa";
             this.lblMa.Size = new System.Drawing.Size(253, 30);
             this.lblMa.TabIndex = 11;
-            this.lblMa.Text = "12343";
+            this.lblMa.Text = "TK0001";
             // 
             // lblUsername
             // 
@@ -262,17 +262,18 @@
             this.tableLayoutPanel3.Controls.Add(this.label8, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label9, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.label12, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.btnDoiMatKhau, 0, 5);
+            this.tableLayoutPanel3.Controls.Add(this.btnDoiMatKhau, 0, 6);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(527, 103);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 6;
+            this.tableLayoutPanel3.RowCount = 7;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(518, 581);
             this.tableLayoutPanel3.TabIndex = 2;
@@ -326,7 +327,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(512, 30);
             this.label12.TabIndex = 12;
-            this.label12.Text = "Báo Cáo Thống Kê";
+            this.label12.Text = "Quản Lý Tài Khoản";
             // 
             // btnDoiMatKhau
             // 
@@ -378,12 +379,12 @@
         private System.Windows.Forms.Label lblBirthday;
         private System.Windows.Forms.Label lblMa;
         private System.Windows.Forms.Label lblUsername;
-        private System.Windows.Forms.Button btnDoiMatKhau;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Button btnDoiMatKhau;
     }
 }

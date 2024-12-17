@@ -52,7 +52,7 @@ namespace BookLibraryManagementProject.Forms
 
                 int docgia2 = int.Parse(docgia);
                 int nhanvien2 = int.Parse(nhanvien);
-                PhieuMuonTra phieuMuonTra = new PhieuMuonTra(docgia2, nhanvien2, ngaylapphieu, ngayhethan, false, 0);
+                PhieuMuonTra phieuMuonTra = new PhieuMuonTra(docgia2, nhanvien2, ngaylapphieu, ngayhethan, false, "Chưa trả", 0);
                 int idPMT = BUS_PhieuMuonTra.Add(phieuMuonTra, out msg);
                 if (idPMT > 0)
                 {
@@ -73,12 +73,6 @@ namespace BookLibraryManagementProject.Forms
             {
                 MessageBox.Show("Bạn chưa chọn sách muốn mượn");
             }
-        }
-
-        private void btnSearch_PMT_Click(object sender, EventArgs e)
-        {
-            string msg;
-            dgvPhieuMuonTra.DataSource = cBHienThiTatCa.Checked ? BUS_PhieuMuonTra.GetAll(out msg) : (object)BUS_PhieuMuonTra.GetAll_PhieuChuaTra(out msg);
         }
 
         private void dgvHienThiSach_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -196,6 +190,18 @@ namespace BookLibraryManagementProject.Forms
                     cMSTraHetSach.Show(dgvPhieuMuonTra, e.Location);
                 }
             }
+        }
+
+        private void tBSearch_PMT_TextChanged(object sender, EventArgs e)
+        {
+            string msg;
+            dgvPhieuMuonTra.DataSource = BUS_PhieuMuonTra.Search(tBSearch_PMT.Text, out msg);
+        }
+
+        private void iBtnPMT_Reload_Click(object sender, EventArgs e)
+        {
+            string msg;
+            dgvPhieuMuonTra.DataSource = BUS_PhieuMuonTra.GetAll(out msg);
         }
     }
 }

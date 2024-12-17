@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|d:\\desktop application development\\bookprj\\booklibrarymanagementproject\\forms\\formqlpmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|solutionrelative:forms\\formqlpmt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|d:\\desktop application development\\bookprj\\booklibrarymanagementproject\\forms\\formqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|solutionrelative:forms\\formqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\forms\\formqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|solutionrelative:forms\\formqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\forms\\formqldg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|solutionrelative:forms\\formqldg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\forms\\formqldg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{08B9B949-409A-4AFB-AA11-6A40CD114A40}|BookLibraryManagementProject.csproj|solutionrelative:forms\\formqldg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,70 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 356,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormQLPMT.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLPMT.cs",
-              "RelativeDocumentMoniker": "Forms\\FormQLPMT.cs",
-              "ToolTip": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLPMT.cs [Design]",
-              "RelativeToolTip": "Forms\\FormQLPMT.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:11:17.338Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormQLDG.cs",
-              "DocumentMoniker": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLDG.cs",
-              "RelativeDocumentMoniker": "Forms\\FormQLDG.cs",
-              "ToolTip": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLDG.cs",
-              "RelativeToolTip": "Forms\\FormQLDG.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwDgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:03:26.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormQLDG.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLDG.cs",
-              "RelativeDocumentMoniker": "Forms\\FormQLDG.cs",
-              "ToolTip": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLDG.cs [Design]",
-              "RelativeToolTip": "Forms\\FormQLDG.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:03:24.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormQLTK.cs",
-              "DocumentMoniker": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLTK.cs",
-              "RelativeDocumentMoniker": "Forms\\FormQLTK.cs",
-              "ToolTip": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLTK.cs",
-              "RelativeToolTip": "Forms\\FormQLTK.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAAAIkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T08:57:05.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormQLTK.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLTK.cs",
-              "RelativeDocumentMoniker": "Forms\\FormQLTK.cs",
-              "ToolTip": "D:\\Desktop application development\\BookPrj\\BookLibraryManagementProject\\Forms\\FormQLTK.cs [Design]",
-              "RelativeToolTip": "Forms\\FormQLTK.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T08:56:44.73Z"
             }
           ]
         }
